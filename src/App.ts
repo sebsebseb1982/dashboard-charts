@@ -15,7 +15,7 @@ class App {
         // Routes
         new TestRoutes().routes(router);
 
-        this.app.use('/test', router);
+        this.app.use('/charts', router);
     }
 
     private config(): void{
